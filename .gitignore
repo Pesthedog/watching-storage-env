@@ -3,3 +3,4 @@ poetry.lock
 pyproject.toml
 .env
 venv
+__pycache__

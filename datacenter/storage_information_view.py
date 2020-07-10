@@ -5,7 +5,6 @@ from datacenter.models import format_duration
 
 def storage_information_view(request):
     visits = Visit.objects.filter(leaved_at__isnull=True)
-
     non_closed_visits = []
 
     for visit in visits:
